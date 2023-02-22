@@ -44,7 +44,7 @@ header {
 /* Singolo prodotto */
 .prodotto {
     width: calc(100% / 3 - 15px);
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 /* Position e proprietà per il cambip di foto in :hover */
