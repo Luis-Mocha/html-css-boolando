@@ -26,6 +26,10 @@ img {
     position: relative;
 }
 
+.vuoto { /* classe per le etichette vuote */
+    display:none;
+}
+
 /* HEADER */
 header {
     background-color: rgb(255,105,0);
@@ -78,13 +82,13 @@ header {
 .etichette {
     position: absolute;
     left: 0px;
-    bottom: 10%;
+    bottom: 8%;
 }
 .etichette > * {
     color:white;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
-    padding: 3px 5px;
+    padding: 3px 8px;
     margin-right: 4px;
 }
 .sconto {
