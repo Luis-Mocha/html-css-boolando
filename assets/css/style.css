@@ -1,0 +1,119 @@
+/* COLORI 
+- Header: rgb(255,105,0);
+- Verde: rgb(0,128,0);
+*/
+
+/* CSS RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+/* UTILITY */
+.container {
+    margin: auto;
+    width: 75%;
+}
+
+.p-relative {
+    position: relative;
+}
+
+/* HEADER */
+header {
+    background-color: rgb(255,105,0);
+    height: 50px;
+}
+
+/* MAIN */
+#contenuto-main {
+    margin-top: 50px ;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Singolo prodotto */
+.prodotto {
+    width: calc(100% / 3 - 15px);
+    margin-bottom: 20px;
+}
+
+/* Position e proprietà per il cambip di foto in :hover */
+.foto-open {
+    position: relative;
+}
+.foto-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.foto-hover:hover {
+    opacity: 1;
+}
+
+/* Cuore e etichette */
+.cuore {
+    font-size: 22px;
+    padding: 4px 8px;
+    background-color: white;
+
+    position: absolute;
+    right: 0;
+    top:5%;
+}
+.cuore:hover {
+    color: red;
+}
+
+.etichette {
+    position: absolute;
+    left: 0px;
+    bottom: 10%;
+}
+.etichette > * {
+    color:white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 3px 5px;
+    margin-right: 4px;
+}
+.sconto {
+    background-color: red;
+}
+.sostenibilità {
+    background-color: rgb(0,128,0);
+}
+
+/* Info prodotto */
+
+.nome,.marca {
+    display: block;
+}
+
+.marca {
+    font-size: 15px;
+}
+.nome {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.prezzo {
+    color: red;
+    font-weight: 700;
+    font-size: 15px;
+}
+.prezzo-vecchio {
+    text-decoration: line-through;
+    font-size: 15px;
+}
