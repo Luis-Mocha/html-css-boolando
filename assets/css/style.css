@@ -46,6 +46,12 @@ header {
     color: white;
 
     box-shadow: 0px 2px 6px gray;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
 }
 header .logo {
     width: 150px;
@@ -80,7 +86,7 @@ header a:hover {
 
 /* MAIN */
 #contenuto-main {
-    margin-top: 50px ;
+    margin-top: 100px ;
 
     display: flex;
     flex-wrap: wrap;
